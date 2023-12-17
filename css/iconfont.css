@@ -17,7 +17,7 @@
   content: "\e797";
 }
 
-.iconabout:before {
+.iconAbout:before {
   content: "\e617";
 }
 
@@ -33,8 +33,12 @@
   content: "\e603";
 }
 
-.iconarchives:before {
+.iconArchives:before {
   content: "\e63a";
+}
+
+.icon404:before {
+  content: "\e6c8";
 }
 
 .icon404:before {
