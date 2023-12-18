@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="keywords"><meta name="descriptioon" content=""><meta name="renderer" content="wekit"><link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="/css/public.css"><link rel="stylesheet" href="/css/reset.css"><link rel="stylesheet" href="/css/iconfont.css"><title>markdown语法 [ Czruby's blog ]</title><link rel="stylesheet" href="/css/partial/footer.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"><link rel="stylesheet" href="/css/partial/sidebar.css"><link rel="stylesheet" href="/css/post.css"><link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"><!-- hexo injector head_end start -->
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="keywords"><meta name="descriptioon" content=""><meta name="renderer" content="wekit"><link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="/css/public.css"><link rel="stylesheet" href="/css/reset.css"><link rel="stylesheet" href="/css/iconfont.css"><title>markdown语法 [ Czruby's blog ]</title><link rel="stylesheet" href="/css/partial/footer.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"><link rel="stylesheet" href="/css/partial/sidebar.css"><link rel="stylesheet" href="/css/post.css"><link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"><!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
@@ -139,4 +139,39 @@ line2</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$$\int \cos x dx = \sin x $$</span><br></pre></td></tr></table></figure>
 <p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo>∫</mo><mi>cos</mi><mo>⁡</mo><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>sin</mi><mo>⁡</mo><mi>x</mi></mrow><annotation encoding="application/x-tex">\int \cos x dx = \sin x 
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.22225em;vertical-align:-0.86225em;"></span><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011249999999999316em;">∫</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">cos</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">x</span><span class="mord mathnormal">d</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66786em;vertical-align:0em;"></span><span class="mop">sin</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">x</span></span></span></span></span></p>
-</div></div><link rel="stylesheet" href="/css/partial/footer.css"><div class="footer"><p><span>Copyright © 2023 - 2023</span><a target="_blank" rel="noopener" href="http://www.beian.miit.gov.cn/"></a></p><p><i class="iconfont iconchakan"><span>本站总访问量</span><span id="busuanzi_container_site_pv">  <span id="busuanzi_value_site_pv"></span> </span></i><i class="iconfont iconabout"><span>本站访客数</span><span id="busuanzi_container_site_uv">  <span id="busuanzi_value_site_uv"></span> </span></i></p></div></div></div><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></body></html>
+</div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"><div id="comment"><div id="gitalk-container" data-gitalk="{&quot;enable&quot;:false,&quot;id&quot;:&quot;&quot;,&quot;owner&quot;:&quot;czruby&quot;,&quot;repo&quot;:&quot;czruby.github.io&quot;,&quot;admin&quot;:&quot;czruby&quot;,&quot;client_id&quot;:&quot;id&quot;,&quot;client_secret&quot;:&quot;secret&quot;,&quot;distractionFreeMode&quot;:false}" data-date="2023-12-17T14:12:17.000Z"></div><script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script><script>function commentinit() {
+    let string = JSON.parse(document.getElementById('gitalk-container').dataset.gitalk)
+    if(string.enable){
+        setTimeout(()=>{
+            if (this.Gitalk) {
+                var gitalk = new Gitalk({
+                    clientID: string.client_id,
+                    clientSecret: string.client_secret,
+                    repo: string.repo,
+                    owner: string.owner,
+                    admin: string.admin,
+                    id: document.getElementById('gitalk-container').dataset.date,
+                    distractionFreeMode: string.distractionFreeMode
+                })
+                gitalk.render('gitalk-container')
+            } else commentinit()
+        },100)
+    }
+}
+commentinit()</script><div id="valine-container" data-valine="{&quot;enable&quot;:true,&quot;appId&quot;:&quot;z7mCBKHbMu8EfFa8uq2JelFI-gzGzoHsz&quot;,&quot;appKey&quot;:&quot;dzVtZ90h9nOQ2qsy3juJ6tYg&quot;,&quot;avatar&quot;:&quot;&quot;,&quot;placeholder&quot;:&quot;请留言&quot;}" data-date="2023-12-17T14:12:17.000Z"></div><script src="https://unpkg.com/valine/dist/Valine.min.js"></script><script>function commentinit() {
+    let string = JSON.parse(document.getElementById('valine-container').dataset.valine)
+    if(string.enable){
+        setTimeout(()=>{
+            if (this.Valine) {
+                new Valine({
+                    el: '#valine-container',
+                    appId: string.appId,
+                    appKey: string.appKey,
+                    placeholder: string.placeholder,
+                    avater: string.avater,
+                })
+            } else commentinit()
+        },100)
+    }
+}
+commentinit()</script></div></div><link rel="stylesheet" href="/css/partial/footer.css"><div class="footer"><p><span>Copyright © 2023 - 2023</span><a target="_blank" rel="noopener" href="http://www.beian.miit.gov.cn/"></a></p><p><i class="iconfont iconchakan"><span>本站总访问量</span><span id="busuanzi_container_site_pv">  <span id="busuanzi_value_site_pv"></span> </span></i><i class="iconfont iconabout"><span>本站访客数</span><span id="busuanzi_container_site_uv">  <span id="busuanzi_value_site_uv"></span> </span></i></p></div></div></div><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></body></html>
