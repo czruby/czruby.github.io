@@ -64,7 +64,20 @@
 <li>分部积分</li>
 <li>定积分性质（函数奇偶性、周期函数）</li>
 </ul>
-</div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"><div id="comment"><div id="gitalk-container" data-gitalk="{&quot;enable&quot;:false,&quot;id&quot;:&quot;&quot;,&quot;owner&quot;:&quot;czruby&quot;,&quot;repo&quot;:&quot;czruby.github.io&quot;,&quot;admin&quot;:&quot;czruby&quot;,&quot;client_id&quot;:&quot;id&quot;,&quot;client_secret&quot;:&quot;secret&quot;,&quot;distractionFreeMode&quot;:false}" data-date="2023-12-17T13:53:53.000Z"></div><script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script><script>function commentinit() {
+</div><style>.copyright {
+    padding: 6px 20px;
+    color: #ff9537;
+    border-radius: 4px;
+    background: white;
+    font-weight: 600;
+    text-align: center;
+}</style><div class="copyright"><p>更新时间：2023-12-17</p>转载请注明来源，欢迎指出任何有错误或不够清晰的表达<p>本文链接：https://czruby.github.io/2023/12/17/微积分期末复习/</p><hr></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"><style>#comment {
+    margin-top: 10px;
+    border-radius: 4px;
+    background: white;
+    font-weight: 600;
+    margin: 20px 0;
+}</style><div id="comment"><h1 style="text-align: center;margin-bottom:10px">评论区</h1><div id="gitalk-container" data-gitalk="{&quot;enable&quot;:false,&quot;id&quot;:&quot;&quot;,&quot;owner&quot;:&quot;czruby&quot;,&quot;repo&quot;:&quot;czruby.github.io&quot;,&quot;admin&quot;:&quot;czruby&quot;,&quot;client_id&quot;:&quot;id&quot;,&quot;client_secret&quot;:&quot;secret&quot;,&quot;distractionFreeMode&quot;:false}" data-date="2023-12-17T13:53:53.000Z"></div><script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script><script>function commentinit() {
     let string = JSON.parse(document.getElementById('gitalk-container').dataset.gitalk)
     if(string.enable){
         setTimeout(()=>{
@@ -83,19 +96,36 @@
         },100)
     }
 }
-commentinit()</script><div id="valine-container" data-valine="{&quot;enable&quot;:true,&quot;appId&quot;:&quot;z7mCBKHbMu8EfFa8uq2JelFI-gzGzoHsz&quot;,&quot;appKey&quot;:&quot;dzVtZ90h9nOQ2qsy3juJ6tYg&quot;,&quot;avatar&quot;:&quot;&quot;,&quot;placeholder&quot;:&quot;请留言&quot;}" data-date="2023-12-17T13:53:53.000Z"></div><script src="https://unpkg.com/valine/dist/Valine.min.js"></script><script>function commentinit() {
+commentinit()</script><div id="valine-container" data-valine="{&quot;enable&quot;:true,&quot;appId&quot;:&quot;z7mCBKHbMu8EfFa8uq2JelFI-gzGzoHsz&quot;,&quot;appKey&quot;:&quot;dzVtZ90h9nOQ2qsy3juJ6tYg&quot;,&quot;avatar&quot;:&quot;&quot;,&quot;placeholder&quot;:&quot;random&quot;}" data-date="2023-12-17T13:53:53.000Z"></div><script src="https://unpkg.com/valine/dist/Valine.min.js"></script><script>function commentinit() {
     let string = JSON.parse(document.getElementById('valine-container').dataset.valine)
     if(string.enable){
         setTimeout(()=>{
             if (this.Valine) {
-                new Valine({
-                    el: '#valine-container',
-                    appId: string.appId,
-                    appKey: string.appKey,
-                    placeholder: string.placeholder,
-                    avater: string.avater,
-                })
+                if(string.placeholder=="random"){
+                    fetch('https://v1.hitokoto.cn')
+                        .then(response => response.json())
+                        .then(data => {
+                        string.placeholder=data.hitokoto+"————"+data.from;
+                        new Valine({
+                            el: '#valine-container',
+                            appId: string.appId,
+                            appKey: string.appKey,
+                            placeholder: string.placeholder,
+                            avater: string.avater,
+                        })
+                        })
+                        .catch(console.error)
+                }else{
+                    new Valine({
+                        el: '#valine-container',
+                        appId: string.appId,
+                        appKey: string.appKey,
+                        placeholder: string.placeholder,
+                        avater: string.avater,
+                    })
+                }
             } else commentinit()
+            
         },100)
     }
 }
