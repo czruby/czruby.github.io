@@ -451,6 +451,16 @@
 	-webkit-transition-timing-function: ease-out;
 	transition-timing-function: ease-out;
 }
+.hbe-submit-xray{
+	background: transparent;
+	border-width:0px;
+	outline:none;
+	text-align: center;
+	margin-top: 2em;
+	color: #ffd077 ;
+	font-weight: 800;
+	font-size: 20px;
+}
 
 .hbe-graphic-xray {
 	stroke: #ffd077 ;
