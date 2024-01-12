@@ -47,15 +47,6 @@
   </url>
   
   <url>
-    <loc>https://www.czruby.eu.org/posts/dd7d6d10.html</loc>
-    
-    <lastmod>2024-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.czruby.eu.org/posts/ca6b7451.html</loc>
     
     <lastmod>2024-01-11</lastmod>
@@ -65,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.czruby.eu.org/posts/e88ac744.html</loc>
+    <loc>https://www.czruby.eu.org/posts/dd7d6d10.html</loc>
     
     <lastmod>2024-01-11</lastmod>
     
@@ -75,6 +66,15 @@
   
   <url>
     <loc>https://www.czruby.eu.org/posts/124147b8.html</loc>
+    
+    <lastmod>2024-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.czruby.eu.org/posts/e88ac744.html</loc>
     
     <lastmod>2024-01-11</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://www.czruby.eu.org/box/animation/index.html</loc>
+    <loc>https://www.czruby.eu.org/box/gallery/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -236,25 +236,7 @@
   </url>
   
   <url>
-    <loc>https://www.czruby.eu.org/box/gallery/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.czruby.eu.org/site/census/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.czruby.eu.org/social/link/index.html</loc>
+    <loc>https://www.czruby.eu.org/box/animation/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -272,7 +254,25 @@
   </url>
   
   <url>
+    <loc>https://www.czruby.eu.org/site/census/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.czruby.eu.org/site/time/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.czruby.eu.org/social/link/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -383,14 +383,14 @@
   </url>
   
   <url>
-    <loc>https://www.czruby.eu.org/tags/%E5%BE%AE%E7%94%B5%E5%AD%90/</loc>
+    <loc>https://www.czruby.eu.org/tags/%E5%8A%A0%E5%AF%86/</loc>
     <lastmod>2024-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.czruby.eu.org/tags/%E5%8A%A0%E5%AF%86/</loc>
+    <loc>https://www.czruby.eu.org/tags/%E5%BE%AE%E7%94%B5%E5%AD%90/</loc>
     <lastmod>2024-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -448,7 +448,7 @@
   </url>
   
   <url>
-    <loc>https://www.czruby.eu.org/categories/%E8%BD%AC%E8%BD%BD/%E7%9F%A5%E4%B9%8E/</loc>
+    <loc>https://www.czruby.eu.org/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/markdown/</loc>
     <lastmod>2024-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -462,6 +462,13 @@
   </url>
   
   <url>
+    <loc>https://www.czruby.eu.org/categories/%E8%BD%AC%E8%BD%BD/%E7%9F%A5%E4%B9%8E/</loc>
+    <lastmod>2024-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.czruby.eu.org/categories/%E8%B5%84%E6%96%99/</loc>
     <lastmod>2024-01-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -469,21 +476,7 @@
   </url>
   
   <url>
-    <loc>https://www.czruby.eu.org/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/markdown/</loc>
-    <lastmod>2024-01-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.czruby.eu.org/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2024-01-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.czruby.eu.org/categories/%E5%AD%A6%E4%B9%A0/%E5%BE%AE%E7%94%B5%E5%AD%90/</loc>
     <lastmod>2024-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -498,6 +491,13 @@
   
   <url>
     <loc>https://www.czruby.eu.org/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/%E9%80%86%E5%90%91/</loc>
+    <lastmod>2024-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.czruby.eu.org/categories/%E5%AD%A6%E4%B9%A0/%E5%BE%AE%E7%94%B5%E5%AD%90/</loc>
     <lastmod>2024-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
