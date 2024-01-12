@@ -490,9 +490,9 @@
             
             <tag> 编程学习 </tag>
             
-            <tag> 语法 </tag>
-            
             <tag> markdown </tag>
+            
+            <tag> 语法 </tag>
             
         </tags>
       
@@ -549,7 +549,7 @@
           
           <category> 编程学习 </category>
           
-          <category> latex </category>
+          <category> 资料速查 </category>
           
       </categories>
       
@@ -558,9 +558,9 @@
             
             <tag> 编程学习 </tag>
             
-            <tag> latex </tag>
-            
             <tag> 语法 </tag>
+            
+            <tag> latex </tag>
             
         </tags>
       
@@ -589,9 +589,9 @@
             
             <tag> 编程学习 </tag>
             
-            <tag> 语法 </tag>
-            
             <tag> markdown </tag>
+            
+            <tag> 语法 </tag>
             
         </tags>
       
@@ -646,14 +646,20 @@
       
       <categories>
           
-          <category> 演示 </category>
+          <category> 编程学习 </category>
+          
+          <category> 资料速查 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Markdown </tag>
+            <tag> 编程学习 </tag>
+            
+            <tag> markdown </tag>
+            
+            <tag> 语法 </tag>
             
             <tag> 外挂标签 </tag>
             

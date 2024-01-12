@@ -532,9 +532,9 @@ link:[&lt;a href=&quot;https://blog.csdn.net/weixin_45157820/article/details/112
     
     <category term="编程学习" scheme="https://www.czruby.eu.org/tags/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="语法" scheme="https://www.czruby.eu.org/tags/%E8%AF%AD%E6%B3%95/"/>
-    
     <category term="markdown" scheme="https://www.czruby.eu.org/tags/markdown/"/>
+    
+    <category term="语法" scheme="https://www.czruby.eu.org/tags/%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
@@ -603,14 +603,14 @@ link:[&lt;a href=&quot;https://blog.csdn.net/weixin_45157820/article/details/112
     
     <category term="编程学习" scheme="https://www.czruby.eu.org/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="latex" scheme="https://www.czruby.eu.org/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/latex/"/>
+    <category term="资料速查" scheme="https://www.czruby.eu.org/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/%E8%B5%84%E6%96%99%E9%80%9F%E6%9F%A5/"/>
     
     
     <category term="编程学习" scheme="https://www.czruby.eu.org/tags/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="latex" scheme="https://www.czruby.eu.org/tags/latex/"/>
-    
     <category term="语法" scheme="https://www.czruby.eu.org/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+    <category term="latex" scheme="https://www.czruby.eu.org/tags/latex/"/>
     
   </entry>
   
@@ -639,9 +639,9 @@ link:[&lt;a href=&quot;https://blog.csdn.net/weixin_45157820/article/details/112
     
     <category term="编程学习" scheme="https://www.czruby.eu.org/tags/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="语法" scheme="https://www.czruby.eu.org/tags/%E8%AF%AD%E6%B3%95/"/>
-    
     <category term="markdown" scheme="https://www.czruby.eu.org/tags/markdown/"/>
+    
+    <category term="语法" scheme="https://www.czruby.eu.org/tags/%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
@@ -699,10 +699,16 @@ link:[&lt;a href=&quot;https://blog.csdn.net/weixin_45157820/article/details/112
     
     
     
-    <category term="演示" scheme="https://www.czruby.eu.org/categories/%E6%BC%94%E7%A4%BA/"/>
+    <category term="编程学习" scheme="https://www.czruby.eu.org/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="资料速查" scheme="https://www.czruby.eu.org/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/%E8%B5%84%E6%96%99%E9%80%9F%E6%9F%A5/"/>
     
     
-    <category term="Markdown" scheme="https://www.czruby.eu.org/tags/Markdown/"/>
+    <category term="编程学习" scheme="https://www.czruby.eu.org/tags/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="markdown" scheme="https://www.czruby.eu.org/tags/markdown/"/>
+    
+    <category term="语法" scheme="https://www.czruby.eu.org/tags/%E8%AF%AD%E6%B3%95/"/>
     
     <category term="外挂标签" scheme="https://www.czruby.eu.org/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
