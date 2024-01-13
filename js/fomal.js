@@ -99,7 +99,7 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
 
-  let dist = getDistance(113.34499552, 23.15537143, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+  let dist = getDistance(32.055063,118.779441, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
   let pos = ipLoacation.result.ad_info.nation;
   let ip;
   let posdesc;
@@ -182,7 +182,7 @@ function showWelcome() {
               posdesc = "豫州之域，天地之中。";
               break;
             case "南阳市":
-              posdesc = "臣本布衣，躬耕于南阳。此南阳非彼南阳！";
+              posdesc = "臣本布衣，躬耕于南阳。南阳，一个值得三顾的地方！";
               break;
             case "驻马店市":
               posdesc = "峰峰有奇石，石石挟仙气。嵖岈山的花很美哦！";
