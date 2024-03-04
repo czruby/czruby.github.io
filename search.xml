@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>记录bmap的一个开发中可能遇到的问题</title>
+      <link href="/posts/bd3111ab.html"/>
+      <url>/posts/bd3111ab.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="问题描述">问题描述</h1><p>在使用Vue3框架结合echarts实现百度地图并标点时，出现了在本地运行正常，但是一打包部署便出现页面白屏的问题</p><h1 id="Debug过程">Debug过程</h1><ul><li>首先考虑到是echarts脚本未加载出来<ul><li>经过调试发现echarts表格dom以建立，标题也显示，就是地图空白</li></ul></li><li>考虑bmap脚本加载失败<ul><li>检查发现控制台bmap脚本成功加载</li></ul></li><li>查找互联网同类型错误<ul><li>发现出现情况均与本次遇到情况不符</li></ul></li><li>最后将代码回滚到可以正常打包运行的版本，一步步调试终于发现了问题所在</li></ul><h1 id="问题解决">问题解决</h1><h2 id="原代码">原代码</h2><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">&#x27;echarts/extension-src/bmap/bmap&#x27;</span></span><br></pre></td></tr></table></figure><h2 id="改正后代码">改正后代码</h2><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">&#x27;echarts/extension/bmap/bmap&#x27;</span></span><br></pre></td></tr></table></figure><h2 id="复盘解释">复盘解释</h2><ul><li>猜想1：原代码是通过copilot生成的，可能是早期写法</li><li>猜想2： extension-src包下内容是ts写的，可能在打包后有更严格的代码规范检查，导致运行出错，extension是js代码，要求不高</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程学习 </category>
+          
+          <category> debug </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 编程学习 </tag>
+            
+            <tag> bmap </tag>
+            
+            <tag> debug </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>耍一耍逆向</title>
       <link href="/posts/12e37b44.html"/>
       <url>/posts/12e37b44.html</url>
