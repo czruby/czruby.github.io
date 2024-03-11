@@ -99,7 +99,7 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
 
-  let dist = getDistance(112.5396,33.0036, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+  let dist = getDistance(118.90907,32.09636, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
   let pos = ipLoacation.result.ad_info.nation;
   let ip;
   let posdesc;
@@ -163,7 +163,7 @@ function showWelcome() {
         case "江苏省":
           switch (ipLoacation.result.ad_info.city) {
             case "南京市":
-              posdesc = "这是我挺想去的城市啦。";
+              posdesc = "快来找我玩";
               break;
             case "苏州市":
               posdesc = "上有天堂，下有苏杭。";
