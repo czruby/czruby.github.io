@@ -51,7 +51,7 @@
 
   p, li {
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    font-size: $type-size-5;  // Changed from $type-size-6 to make text larger
     line-height: 1.5;
   }
 
@@ -129,7 +129,7 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-4;  // Changed from $type-size-5 to make name more prominent
 }
 
 .sidebar .author__desktop {
@@ -244,7 +244,8 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;  // Changed from nowrap to allow text wrapping
+    overflow-wrap: break-word;  // Allow long words to break if necessary
   }
 
   a {
@@ -254,11 +255,35 @@
     padding-top: 2px;
     padding-bottom: 2px;
     color: inherit;
-    font-size: $type-size-5;
+    font-size: $type-size-5;  // Changed from $type-size-6 to match other text
     text-decoration: none;
 
     &:hover {
       text-decoration: underline;
+    }
+
+    i {
+      width: 1.2em;
+      text-align: center;
+      margin-right: 0.5em;
+      vertical-align: middle;
+      font-size: 0.9em;
+    }
+  }
+
+  // Additional alignment adjustments for better icon consistency
+  i {
+    display: inline-block;
+    
+    // Consistent alignment for Font Awesome icons
+    &.fas, &.fab {
+      line-height: 1.2;
+    }
+    
+    // Consistent alignment for Academic Icons
+    &.ai {
+      line-height: 1.2;
+      vertical-align: text-bottom;
     }
   }
 }
