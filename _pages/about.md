@@ -126,7 +126,7 @@ Hello! I’m a 3rd year Software Engineering undergrad at Nanjing University. I'
   <div class="publication-item">
     <div class="publication-content" style="margin-left: 0;">
       <h3 class="publication-title">
-        <a href="#-projects" target="_blank">FxNexus</a>
+        <a href="#-projects">FxNexus</a>
       </h3>
       <div class="publication-note">
         The entry for the Citibank Cup, a set of foreign exchange data dashboards, was created using the TradingView library to customize some data display components.
@@ -150,7 +150,7 @@ Hello! I’m a 3rd year Software Engineering undergrad at Nanjing University. I'
   <div class="publication-item">
     <div class="publication-content" style="margin-left: 0;">
       <h3 class="publication-title">
-        <a href="#-projects" target="_blank">API Shield</a>
+        <a href="#-projects">API Shield</a>
       </h3>
       <div class="publication-note">
         A detection system for API abnormal traffic, including a complete set of tools for the entire process of traffic scanning, identification and analysis. Due to the fact that it is still in the review stage, the code cannot be made public at present.
