@@ -70,7 +70,7 @@ Hello! I’m a 3rd year Software Engineering undergrad at Nanjing University. I'
         <a href="#-projects">Riverside Scene at Qingming Festival</a>
       </h3>
       <div class="publication-note">
-        This is my entry for Nanjing University EL Programming Design Competition. It integrates AI technology into traditional cultural works, exploring novel ways of disseminating traditional culture.
+        This is my entry for Nanjing University EL Programming Design Competition. It integrates AI technology into traditional cultural works, exploring novel ways of disseminating traditional culture. Due to the fact that it is still in the review stage, the code cannot be made public at present.
       </div>
       <div class="publication-tags">
         <span class="tag">Unity</span>
@@ -88,7 +88,7 @@ Hello! I’m a 3rd year Software Engineering undergrad at Nanjing University. I'
         <a href="https://www.yunshangmalan.online" target="_blank">"Ma Lan on Cloud" Education Platform</a>
       </h3>
       <div class="publication-note">
-        A comprehensive foreign exchange trading platform with real-time market data and analysis tools.
+        This is our entry for the Challenge Cup competition. This platform integrates sections such as travel maps, 3D digital exhibition halls, platform courses, question-and-answer systems, and audio-visual resources. It will provide users with a one-stop channel for learning digital ideological and political knowledge. Due to the fact that it is still in the review stage, the code cannot be made public at present.
       </div>
       <div class="publication-tags">
         <span class="tag">Vue.js</span>
@@ -126,7 +126,7 @@ Hello! I’m a 3rd year Software Engineering undergrad at Nanjing University. I'
   <div class="publication-item">
     <div class="publication-content" style="margin-left: 0;">
       <h3 class="publication-title">
-        <a href="#" target="_blank">FxNexus</a>
+        <a href="#-projects" target="_blank">FxNexus</a>
       </h3>
       <div class="publication-note">
         The entry for the Citibank Cup, a set of foreign exchange data dashboards, was created using the TradingView library to customize some data display components.
@@ -150,10 +150,10 @@ Hello! I’m a 3rd year Software Engineering undergrad at Nanjing University. I'
   <div class="publication-item">
     <div class="publication-content" style="margin-left: 0;">
       <h3 class="publication-title">
-        <a href="#" target="_blank">API Shield</a>
+        <a href="#-projects" target="_blank">API Shield</a>
       </h3>
       <div class="publication-note">
-        A detection system for API abnormal traffic, including a complete set of tools for the entire process of traffic scanning, identification and analysis.
+        A detection system for API abnormal traffic, including a complete set of tools for the entire process of traffic scanning, identification and analysis. Due to the fact that it is still in the review stage, the code cannot be made public at present.
       </div>
       <div class="publication-tags">
         <span class="tag">Vue.js</span>
