@@ -27,6 +27,7 @@ Hello! I’m a 3rd year Software Engineering undergrad at Nanjing University. I'
 
 <div id="news"></div>
 ## 🔥 News
+- *2025.11*: &nbsp;🎉🎉 Our Paper [Leveraging Self-Paced Learning for Software Vulnerability Detection](https://arxiv.org/abs/2511.09212) is released.
 - *2025.06*: &nbsp;🎉🎉 Our Paper [One Size Does Not Fit All: Investigating Efficacy of Perplexity in Detecting LLM-Generated Code](https://arxiv.org/abs/2412.16525) is accepted by TOSEM.
 - *2024.12*: &nbsp;🎉🎉 Our Paper [One Size Does Not Fit All: Investigating Efficacy of Perplexity in Detecting LLM-Generated Code](https://arxiv.org/abs/2412.16525) is released.
 
@@ -54,6 +55,29 @@ Hello! I’m a 3rd year Software Engineering undergrad at Nanjing University. I'
         <a href="https://arxiv.org/abs/2412.16525" class="publication-link">Paper</a>
         <!-- <a href="#" class="publication-link">Project Page</a> -->
         <a href="https://figshare.com/s/9744107ba10cf75ea883" class="publication-link">Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <div class="publication-image">
+      <img src="/images/publications/splvd.png" alt="FlexPainter Preview" />
+      <div class="publication-badge accepted">Arxiv</div>
+    </div>
+    <div class="publication-content">
+      <h3 class="publication-title">
+        <a href="https://arxiv.org/abs/2511.09212" target="_blank">Leveraging Self-Paced Learning for Software Vulnerability Detection</a>
+      </h3>
+      <div class="publication-authors">
+        <strong>Zeru Cheng</strong>, Yanjing Yang, He Zhang, Lanxin Yang, Jinghao Hu, Jinwei Xu, Bohan Liu, Haifeng Shen
+      </div>
+      <div class="publication-note">
+        <!-- • *Equal contribution †Corresponding Author -->
+      </div>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2511.09212" class="publication-link">Paper</a>
+        <!-- <a href="#" class="publication-link">Project Page</a> -->
+        <!-- <a href="https://figshare.com/s/9744107ba10cf75ea883" class="publication-link">Code</a> -->
       </div>
     </div>
   </div>
